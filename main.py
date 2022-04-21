@@ -34,6 +34,7 @@ class Bot:
 
 def main():
     timeout = 5  # Seconds
+    channel_id = "724627878699860029"
     bot_list = []
 
     accounts_file = open('accounts.json')
@@ -45,7 +46,7 @@ def main():
         bot_token = accounts[i]['token']
         bot_message = accounts[i]['message']
         bot_name = accounts[i]['name']
-        bot = Bot(bot_name, bot_token, "724627878699860029", bot_message)
+        bot = Bot(bot_name, bot_token, channel_id, bot_message)
         bot_list.append(bot)
 
     print("Starting the spam...")
