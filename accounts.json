@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Bot 1",
+    "token": "TOKEN",
+    "message": "test123"
+  },
+  {
+    "name": "My bot",
+    "token": "TOKEN",
+    "message": "test12341"
+  },
+  {
+    "name": "Awesome bot",
+    "token": "TOKEN",
+    "message": "test12341"
+  }
+]
